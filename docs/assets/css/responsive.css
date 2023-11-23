@@ -104,7 +104,8 @@
     }
     .slider-content p {
         margin-bottom: 30px;
-        width: 100%;
+        width: 90%;
+        font-size: 15px;
     }
     .slider-shape {
         left: 4%;
