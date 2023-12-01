@@ -14,6 +14,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './pages/partials/footer/footer.component';
 import { MinistryComponent } from './pages/ministry/ministry.component';
+import { DonationComponent } from './pages/donation/donation.component';
+import { EventsComponent } from './pages/events/events.component';
+import { ArticlesComponent } from './pages/articles/articles.component';
 
 
 register();
@@ -24,7 +27,10 @@ register();
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    MinistryComponent
+    MinistryComponent,
+    DonationComponent,
+    EventsComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +41,8 @@ register();
       { path: 'contact', component: ContactComponent, pathMatch: 'full' },
       { path: 'about', component: AboutComponent },
       { path: 'ministry', component: MinistryComponent },
-     // { path: 'ministry', component: MinistryComponent }
+      { path: 'events', component: EventsComponent },
+      { path: 'articles', component: ArticlesComponent }
     ])
   ],
   providers: [HttpClientModule, RequesthandlerService],

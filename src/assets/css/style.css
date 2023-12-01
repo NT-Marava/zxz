@@ -55,7 +55,7 @@
 
 :root {
     --tg-body-font-family: 'proxima-novel', sans-serif;
-    --tg-heading-font-family: 'Poppins', sans-serif;
+    --tg-heading-font-family: 'Crimson Text', sans-serif;
     /* --tg-primary-color: #0055FF; */
     --tg-primary-color: #051433;
     --tg-secondary-color: #00194C;
@@ -2226,7 +2226,7 @@ label {
     margin-bottom: 0;
     color: #140e26;
     font-size: 26px;
-    font-family: initial;
+    font-family: Crimson Text;
     font-weight: 300;
 }
 
